@@ -29,7 +29,8 @@ header {
     background-color: #e7e5e5;
 }
 
-ul,h1,input {
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, 
+input, legend, li, ol, p, pre, td, textarea, th, ul {
     margin: 0;
     padding: 0;
 }
@@ -148,4 +149,43 @@ body {
     height: 36px;
     background-color: #c81623;
     float: left;
+}
+
+.form button i {
+    font-family: 'icomoon';  
+    font-style: normal;   
+    color: #fff;    
+}
+
+/* 购物车 */
+.shopCar {
+    width: 130px;
+    height: 34px;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 25px;
+    right:120px;
+    /* 垂直对齐 */
+    line-height: 34px;
+    text-align: center;
+    color: #c81623;
+}
+
+.shopCar i {
+    font-family: 'icomoon';
+    font-style: normal;
+    margin-right: 10px;
+}
+
+.shopCar span {
+    width: 15px;
+    height: 15px;
+    background-color: #f10215;
+    border-radius: 50%;
+    position:absolute;
+    top: 0;
+    left: 32px;
+    color: #fff;
+    line-height: 15px;
+    font-size: 12px;
 }
