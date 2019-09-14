@@ -124,6 +124,7 @@ body {
     background-size: 100%;
 }
 
+/* 搜索框 */
 .form {
     width: 490px;
     height: 36px;
@@ -188,4 +189,15 @@ body {
     color: #fff;
     line-height: 15px;
     font-size: 12px;
+}
+
+/* 关键词模块 */
+.hotwords {
+    position: absolute;
+    top: 65px;
+    left:220px;
+}
+
+.hotwords a {
+    margin-right: 5px;
 }
