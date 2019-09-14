@@ -29,9 +29,14 @@ header {
     background-color: #e7e5e5;
 }
 
-ul,h1 {
+ul,h1,input {
     margin: 0;
     padding: 0;
+}
+input,button{
+    border: 0;
+    /* 取消轮廓 */
+    outline: none;
 }
 ul {
     list-style: none;
@@ -100,11 +105,13 @@ body {
 /* 中间部分 */
 .middle {
     height:140px;
-
+    position: relative;
 }
 .logo {
     top: 10px;
     position: relative;
+    width:190px;
+    height:120px;
 }
 
 .logo a{
@@ -114,4 +121,31 @@ body {
     background:url(../images/logo.png) no-repeat ;
     /* 这里由于我的图片的instrinsic:380×240，所以要增加一个属性，按容器比例放缩 */
     background-size: 100%;
+}
+
+.form {
+    width: 490px;
+    height: 36px;
+    top: 25px;
+    position:absolute;
+    left: 220px;
+}
+
+.form input {
+    width: 425px;
+    height: 32px;
+    border: 2px solid #e2231a;
+    /* 去掉缝隙 */
+    float: left;
+    /* 搜索框中的字体大小 */
+    font-size: 14px;
+    /* 文字距离搜索框左边的距离 */
+    padding-left:3px;
+}
+
+.form button {
+    width: 58px;
+    height: 36px;
+    background-color: #c81623;
+    float: left;
 }
