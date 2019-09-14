@@ -201,3 +201,33 @@ body {
 .hotwords a {
     margin-right: 5px;
 }
+
+/* 小导航模块 */
+.navitems {
+    position: absolute;
+    left: 203px;
+    bottom: 0;
+    height: 40px;
+    padding-top: 20px;
+    width: 764px;
+}
+
+.navitems li {
+    float: left;
+    margin-left: 1px;
+}
+
+.navitems li a {
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+    position: relative;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 11px;
+}
+
+.navitems li a:hover{
+    color: #e1251b;
+}
