@@ -231,3 +231,54 @@ body {
 .navitems li a:hover{
     color: #e1251b;
 }
+
+/* 页面底部 */
+footer {
+    height: 569px;
+    width: 100%;
+    background: pink;
+    margin-top: 35px;
+}
+
+.service {
+    padding:30px 0;
+    border-bottom: 1px solid #dedede;
+    /* 清除浮动 */
+    overflow: hidden;
+}
+
+.service ul li {
+    width: 247px;
+    height: 42px;
+    background-color:purple;
+    position: relative;
+    line-height: 42px;
+    float: left;
+}
+/* 多 */
+.service li h5 {
+    position: absolute;
+    top:0;
+    left:11px;
+    width: 36px;
+    height: 42px;
+    background:url(../images/service.png) no-repeat;
+    background-size: 113px 86.5px;
+}
+/* 快 */
+.service li:nth-child(2) h5 {
+    background-position: -38.5px 0;
+}
+/* 好 */
+.service li:nth-child(3) h5 {
+    background-position: -77px 0;
+}
+/* 省 */
+.service li:nth-child(4) h5 {
+    background-position: 0 -44.5px;
+}
+
+.service li p{
+    font-weight: 700;
+    margin-left: 56px;
+}
