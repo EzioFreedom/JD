@@ -104,3 +104,83 @@
 .circle .current {
     background-color: #f10215;
 }
+
+/* 最右侧模块 */
+.login {
+    height: 89px;
+    background-color: #ffffff;
+    padding-top: 13px;
+    padding-left: 20px;
+    color: #666;
+}
+
+.news {
+    height: 130px;
+    background-color: purple;
+}
+
+.expand {
+    height: 238px;
+    background-color:skyblue;
+}
+
+.login-t {
+    width: 106px;
+    font-size: 12px;
+    padding-left: 53px;
+    height: 48px;
+    line-height: 20px;
+    position: relative;
+}
+
+.login-t a {
+    color: #333;
+}
+
+.user-info {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url(../images/no-login.png);
+    background-size: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.login-b a {
+    margin-top: 5px;
+}
+
+
+.new {
+    display: block;
+    width: 70px;
+    height: 25px;
+    margin: 0 6px;
+    background-color: #fff;
+    float: left;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #e1251b;
+    color: #fff;
+    border-radius: 13px;
+}
+
+.member {
+    display: block;
+    width: 70px;
+    height: 25px;
+    margin: 0 6px;
+    background-color: #fff;
+    float: left;
+    line-height: 25px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #363634;
+    color: #e5d790;
+    border-radius: 13px;
+}
